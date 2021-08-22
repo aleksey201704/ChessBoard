@@ -2,22 +2,31 @@
 #include <Windows.h>
 using namespace std;
 
+const int m = 219;
 
 void main() {
-	//setlocale(LC_ALL, "Russian");
+//setlocale(LC_ALL, "Russian");
+char Ascii[256] ;
 
-int  m;
-char Ascii[256];
-//cout << "Введите ширину доски"; cin >> n;
- for (int i = 0; i < 256; i++)
+//cout << " "; cin >> n;
+for (int l = 0; l < 5; l++)
 {
-	Ascii[i] = i;
-	cout << i << " - " << Ascii[i];
-}
 
- cout << "\n";
- m=220;
- Ascii[m] = m ;
- cout << Ascii[m];
+	for (int j = 0; j < 5; j++) // количество квадратов
+	{
+		for (int i = 0; i < 10; i++)
+		{
+			Ascii[m] = m;
+			cout << Ascii[m];
+		}
+
+		for (int p = 0; p < 10; p++)
+		{
+			cout << " ";
+		}
+
+	}
+	cout << "\n";
+}
 
 }
