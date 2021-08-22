@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <Windows.h>
 using namespace std;
 
@@ -13,7 +13,7 @@ v = 0;
 
 cout << " input line = "; cin >> n;
 
-// делаем рамку
+// РґРµР»Р°РµРј СЂР°РјРєСѓ
 s = 218;
 Ascii[s] = s;
 cout << Ascii[s];
@@ -48,7 +48,7 @@ if (n % 2 == 0)
 			Ascii[s] = s;
 			cout << Ascii[s]<< " ";
 
-			for (int j = 0; j < v; j++) // количество квадратов
+			for (int j = 0; j < v; j++) // РєРѕР»РёС‡РµСЃС‚РІРѕ РєРІР°РґСЂР°С‚РѕРІ
 			{
 				for (int i = 0; i < 10; i++)
 				{
@@ -74,7 +74,7 @@ if (n % 2 == 0)
 			Ascii[s] = s;
 			cout << Ascii[s] << " ";
 
-			for (int j = 0; j < v; j++) // количество квадратов
+			for (int j = 0; j < v; j++) // РєРѕР»РёС‡РµСЃС‚РІРѕ РєРІР°РґСЂР°С‚РѕРІ
 			{
 				for (int p = 0; p < 10; p++)
 				{
@@ -109,7 +109,7 @@ else
 			Ascii[s] = s;
 			cout << Ascii[s] << " ";
 
-			for (int j = 0; j < v+1; j++) // количество квадратов
+			for (int j = 0; j < v+1; j++) // РєРѕР»РёС‡РµСЃС‚РІРѕ РєРІР°РґСЂР°С‚РѕРІ
 			{
 				for (int i = 0; i < 10; i++)
 				{
@@ -138,7 +138,7 @@ else
 				s = 179;
 				Ascii[s] = s;
 				cout << Ascii[s] << " ";
-				for (int j = 0; j < v; j++) // количество квадратов
+				for (int j = 0; j < v; j++) // РєРѕР»РёС‡РµСЃС‚РІРѕ РєРІР°РґСЂР°С‚РѕРІ
 				{
 					for (int p = 0; p < 10; p++)
 					{
@@ -165,7 +165,7 @@ else
 	}
 }
 
-// делаем нижнюю рамку
+// РґРµР»Р°РµРј РЅРёР¶РЅСЋСЋ СЂР°РјРєСѓ
 s = 192;
 Ascii[s] = s;
 cout << Ascii[s];
